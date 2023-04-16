@@ -1,4 +1,15 @@
-# setupNodeTS
+# Projeto Bonificações ACME Parafusos
+
+## Tecnologias utilizadas
+
+- NodeJS
+- Express
+- Prisma
+- MariaDB
+- Insomnia
+- Typescript
+
+## Sobre o projeto
 
 - Algumas empresas costumam pagar participações nos lucros ou resultados de acordo com a legislação trabalhista ou acordo sindical a qual pertencem,
 outras tratam apenas como benefício aos funcionários como insentivo ou agradecimento pelo serviço prestado.
