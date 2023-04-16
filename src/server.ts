@@ -3,6 +3,8 @@ import express from 'express'
 import cors from 'cors'
 import { routerExample } from './routes/router';
 
+const PORT = process.env.PORT || 3777;
+
 //app
 const app = express();
 app.use(cors());
@@ -11,6 +13,6 @@ app.use(routerExample)
 
 
 //teste
-app.listen(3000, () => {
-    console.log('Server running on port 3000')
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`)
 });
