@@ -1,7 +1,7 @@
 //imports
 import express from 'express'
 import cors from 'cors'
-import { routerExample } from './routes/router';
+import { routerFuncionario } from './routes/router';
 
 const PORT = process.env.PORT || 3777;
 
@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3777;
 const app = express();
 app.use(cors());
 app.use(express.json());
-app.use(routerExample)
+app.use(routerFuncionario)
 
 
 //teste

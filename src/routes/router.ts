@@ -1,12 +1,12 @@
 import { Router } from "express";
-import { inserir, alterar, excluir, listar } from "../controller/example";
+import { inserir, alterar, excluir, listar } from "../controller/funcionario";
 
-export const routerExample = Router();
+export const routerFuncionario = Router();
 
-routerExample.post("/inserir", inserir);
-routerExample.put("/alterar", alterar);
-routerExample.delete("/excluir", excluir);
-routerExample.get("/listar", listar);
+routerFuncionario.post("/funcionario/inserir", inserir);
+routerFuncionario.put("/funcionario/alterar", alterar);
+routerFuncionario.delete("/funcionario/excluir", excluir);
+routerFuncionario.get("/funcionario/listar", listar);
 
 
 
