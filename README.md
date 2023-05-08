@@ -39,12 +39,12 @@ Porém, neste caso a empresa precisa registrar o histórico de pagamentos e em a
 
 - [x] Criar a pasta docs para armazenar os arquivos de documentação do projeto
 
-- [ ] Criar o banco de dados e as tabelas necessárias para armazenar os dados
+- [X] Criar o banco de dados e as tabelas necessárias para armazenar os dados
 
-- [ ] Criar as funções para cadastrar, listar, atualizar e excluir funcionários
+- [X] Criar as funções para cadastrar, listar, atualizar e excluir funcionários
 
-- [ ] Criar as rotas para cadastrar, listar, atualizar e excluir funcionários
+- [X] Criar as rotas para cadastrar, listar, atualizar e excluir funcionários
 
-- [ ] Fazer os testes no Insomnia
+- [X] Fazer os testes no Insomnia
 
-- [ ] Exportar a collection do Insomnia e colocar na pasta docs
+- [X] Exportar a collection do Insomnia e colocar na pasta docs
